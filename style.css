@@ -1,0 +1,589 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* navbar */
+.navbar {
+    overflow: hidden;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 30.35px;
+    top: 40px;
+    color: #FFFFFF;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+    color: #FFFFFF;
+
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 800;
+    margin-left: 30px;
+    transition: color 0.3s;
+}
+
+/* Hover */
+
+.menu a:hover {
+    color: #AC421F;
+}
+
+.menu .point {
+    color: #AC421F;
+}
+
+/* Btn X Span */
+.btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}s
+
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 30px;
+    height: 3px;
+    background: #f1f1f1;
+    line-height: 50px;
+}
+
+.btn:hover>span {
+    background: #AC421F;
+}
+/* jumbotron */
+.jumbotron{
+    position: relative;
+    width: 100%;
+    height: 809px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(img/jumbotron1.png);
+}
+
+.jumbotron h1,
+.jumbotron p{
+    /* I am Fitria */
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.jumbotron h1{
+    padding-top: 22%;
+    font-weight: bold;
+    font-size: 96px;
+    margin-left: 55%;
+}
+
+.jumbotron p{
+    /* Let’s Make Your Website Great Again */
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -2%;
+}
+
+.jumbotron h5{
+    position: relative;
+    width: 10%;
+    margin-left: 67%;
+    padding: 20px;
+    margin-top: 2%;
+
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height */
+
+    background-color: #AC421F;
+    background-position-x: 255.72px;
+    background-position-y: 59.01px;
+    color: #FFFFFF;
+
+    border-radius: 50px 50px 50px 50px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 809px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+/* container */
+.container {
+    margin: auto;
+    top: auto;
+    width: 100%;
+}
+.pick{
+    position: absolute;
+    color: #000000;
+    font-family: Poppins;
+}
+.pick h3{
+    /* “Pick one source then paste to it = steal. Pick two source then mix it up = research */
+
+    position: absolute;
+    width: 454px;
+    height: 259px;
+    left: 107px;
+    top: 100px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    
+}
+
+.pick p{
+    /* - arts */
+
+    position: absolute;
+    width: 92px;
+    height: 48px;
+    left: 355px;
+    top: 330px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.fotopick{
+    /* foto 1 */
+
+    position: absolute;
+    width: 485px;
+    height: 431px;
+    left: 723px;
+    top: 876px;
+
+    background: url(img/pick.png);
+}
+
+.fotowho{
+    /* fitri 1*/
+
+    position: absolute;
+    width: 427px;
+    height: 565px;
+    left: 107px;
+    top: 1269px;
+
+    background: url(img/fitria1.png);
+
+}
+
+.who h3{
+    position: absolute;
+    width: 253px;
+    height: 72px;
+    left: 667px;
+    top: 1370px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.who h5{
+    /* I am UI/UX Designer and student at Vocational High School 1 Katapang */
+
+    position: absolute;
+    width: 464px;
+    height: 60px;
+    left: 667px;
+    top: 1446px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* Gray 2 */
+    color: #AC421F;
+}
+
+.who p{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic */
+
+    position: absolute;
+    width: 593px;
+    height: 135px;
+    left: 667px;
+    top: 1531px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* Gray 3 */
+    color: #828282;
+}
+
+.tekan h5{
+    position: absolute;
+    position: absolute;
+    width: 120px;
+    height: 27px;
+    left: 667px;
+    top: 1716px;
+    padding: 20px;
+    text-align: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height */
+    background-color: #AC421F;
+    background-position-x: 204px;
+    background-position-y: 61px;
+    color: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* container cardd */
+.container-cardd{
+    margin:auto;
+    width: 100%;
+}
+.portofolio h3{
+    /* PORTOFOLIO */
+
+    position: absolute;
+    width: 298px;
+    height: 72px;
+    left: 534px;
+    top: 1889px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.portofolio p{
+    /* Simplity with elegancy design */
+
+    position: absolute;
+    width: 360px;
+    height: 36px;
+    left: 540px;
+    top: 1950px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+    /* Gray 2 */
+    color: #AC421F;
+}
+
+/* portofolio image */
+.image1{
+    /* web elektro */
+
+    position: absolute;
+    width: 433px;
+    height: 221px;
+    left: 165px;
+    top: 2052px;
+
+    background: url(img/elektro.png);
+}
+
+.image2{
+    /* web sneaker */
+    
+    position: absolute;
+    width: 657px;
+    height: 410px;
+    left: 629px;
+    top: 2052px;
+
+    background: url(img/sneaker.png);
+}
+
+.image3{
+    /* Order Ticket */
+
+    position: absolute;
+    width: 493px;
+    height: 370px;
+    left: 102px;
+    top: 2299px;
+
+    background: url(img/ticket.png);
+}
+
+.image4{
+    /*muslim */
+
+    position: absolute;
+    width: 483px;
+    height: 136px;
+    left: 129px;
+    top: 2670px;
+
+    background: url(img/muslim.png);
+}
+
+.image5{
+    /* preview */
+
+    position: absolute;
+    width: 322px;
+    height: 322px;
+    left: 629px;
+    top: 2484px;
+
+    background: url(img/preview.png);
+}
+
+.image6{
+    /* ied */
+
+    position: absolute;
+    width: 306px;
+    height: 306px;
+    left: 968px;
+    top: 2495px;
+
+    background: url(img/quran.png);
+}
+
+.tekanporto h5{
+    position: absolute;
+    width: 180px;
+    height: 26.37px;
+    left: 534px;
+    top: 2891.02px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px;
+
+    /* identical to box height */
+    background-color: #AC421F;
+    font-size: 15px;
+    background-position-x: 255.72px;
+    background-position-y: 59.011px;
+    color: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* container contact */
+.container-join {
+    background: url(img/about.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px 5px;
+    margin-bottom: 70px;
+
+    position: absolute;
+    width: 100%;
+    top: 3076px;
+}
+
+.container-join h1 {
+    margin: auto;
+    height: 72px;
+    top: 3168px;
+    
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.container-join p {
+    margin: auto;
+    max-width: 600px;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.email-box {
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i {
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background: #2f3542;
+    color: white;
+    width: 60px;
+    height: 40px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* footer */
+.foot{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    top: 3310px;
+
+    /* Gray 2 */
+    background: #4F4F4F;
+}
+.foot h5{
+    position: relative;
+    width: 100%;
+    height: 36px;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width : 780px) {
+
+    /* NavBar */
+    .navbar {
+        overflow: visible;
+    }
+
+    .menu {
+        width: 100%;
+        right: 0;
+        top: 50px;
+        background: #2f3640;
+        overflow: hidden;
+        max-height: 0;
+    }
+
+    .menu a {
+        display: block;
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .menu a:hover {
+        background: #e1b12c;
+        color: #f1f1f1;
+        width: 100%;
+        margin-left: -15px;
+        display: block;
+    }
+
+    .btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Show */
+
+    .show {
+        max-height: 500px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        height: 500px;
+    }
+
+    .jumbotron h1 {
+        padding-top: 15%;
+        font-size: 5px;
+    }
+
+    .jumbotron p {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .jumbotron h5{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+}
